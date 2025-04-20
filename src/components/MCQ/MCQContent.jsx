@@ -18,6 +18,7 @@ const MCQContent = ({ mcqContent }) => {
   }
   return (
     <div>
+      <h2 className="text-3xl mb-5 font-bold text-center">📘 MCQ Questions</h2>
       {mcqs?.map((q, qIndex) => {
         const selected = userAnswers[qIndex];
         const correct = q.answer;
